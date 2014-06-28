@@ -1,0 +1,13 @@
+
+<h1>These are tweets</h1>
+<h2>made by <%= author %>
+<ul>
+<% for(var i=0; i< tweets.length; i++) {%>
+   <h2> <li><%= tweets[i] %></li></h2>
+<% } %>
+</ul>
+
+<form method="post" action="search">
+  <input type="text" name="search terms" value="">
+  <submit><input type="button" name="input" value=""></submit>
+</form>
