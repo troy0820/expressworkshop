@@ -1,4 +1,4 @@
-##expressworkshop
+#ExpressWorkshop
 ===============
 
 Example using twitter package and ejs templates express scaffolding
