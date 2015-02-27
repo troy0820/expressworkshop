@@ -12,7 +12,7 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 //not in there
-var twitter = require('./routes/twitter');
+//var twitter = require('./routes/twitter');
 
 var app = express();
 
@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
-app.use('/twitter', twitter);
+//app.use('/twitter', twitter);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
