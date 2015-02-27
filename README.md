@@ -1,4 +1,5 @@
 #ExpressWorkshop
+[![Travis branch](https://img.shields.io/travis/troy0820/expressworkshop.svg)](https://github.com/troy0820/expressworkshop)
 ===============
 
 Example using twitter package and ejs templates express scaffolding
