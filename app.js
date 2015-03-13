@@ -61,7 +61,7 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 8000;
 app.listen(port);
 
 
