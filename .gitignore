@@ -4,3 +4,4 @@ config.json
 .vagrant/
 Vagrantfile
 public/favicon.ico
+.DS_Store
