@@ -9,7 +9,7 @@ var bodyParser = require('body-parser');
 
 //template
 var routes = require('./routes/index');
-var users = require('./routes/users');
+//var users = require('./routes/users');
 
 //not in there
 //var twitter = require('./routes/twitter');
