@@ -9,4 +9,10 @@ router.get('/', function(req, res) {
 			number:number });
 });
 
+router.post('/', function(req, res) {
+  res.render('index', { title: 'New title',
+			name: 'New Name',
+			number: '12'})
+});
+
 module.exports = router;

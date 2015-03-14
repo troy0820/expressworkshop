@@ -5,3 +5,4 @@ config.json
 Vagrantfile
 public/favicon.ico
 .DS_Store
+npm-debug.log
