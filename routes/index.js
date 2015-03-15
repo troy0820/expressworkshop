@@ -10,9 +10,10 @@ router.get('/', function(req, res) {
 });
 
 router.post('/', function(req, res) {
+  var number = Math.floor((Math.random() * 50) + 1 );
   res.render('index', { title: 'New title',
 			name: 'New Name',
-			number: '12'})
+			number: number })
 });
 
 module.exports = router;
