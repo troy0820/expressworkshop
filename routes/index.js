@@ -11,8 +11,8 @@ router.get('/', function(req, res) {
 
 router.post('/', function(req, res) {
   var number = Math.floor((Math.random() * 50) + 1 );
-  res.render('index', { title: 'New title',
-			name: 'New Name',
+  res.render('index', { title: 'The posted Route',
+			name: 'Still a Vagrant box',
 			number: number })
 });
 
