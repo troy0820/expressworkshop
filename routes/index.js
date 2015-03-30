@@ -10,8 +10,8 @@ router.get('/', function(req, res) {
 });
 
 router.post('/', function(req, res) {
-  var number = Math.floor((Math.random() * 50) + 1 );
-  res.render('index', { title: 'The posted Route',
+  var number = Math.floor((Math.random() * 100) + 1 );
+  res.render('index', { title: 'You Posted this',
 			name: 'Still a Vagrant box',
 			number: number })
 });
