@@ -4,16 +4,17 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css' />
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
   </head>
   <body>
     <div class='container'>
-   	 <h1><%= title %></h1>
+   	  <h1><i class='fa fa-globe'></i> <%= title %></h1>
    	 <p>This is a <%= title %></p>
     	<ul class='list-unstyled'>
     		<li>Welcome to <%=name %></li>
     		<li>This is the random number <%=number %></li>
    	 </ul>
-		<form action="/" method="post"> 
+		<form action="/" method="post">
 			<input type='text' name='box'><br/>
 			<input type='submit' value='Post to route'>
         	</form>
