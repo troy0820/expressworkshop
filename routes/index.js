@@ -5,13 +5,14 @@ var router = express.Router();
 router.get('/', function(req, res) {
   var number = Math.floor((Math.random()*50)+1);
   res.render('index', { title: 'Vagrant Box',
-  			name: 'Troy\'s Vagrant Box', 
+  			name: 'Troy\'s Vagrant Box',
 			number:number });
 });
 
 router.post('/', function(req, res) {
+  var title = req.body.box;
   var number = Math.floor((Math.random() * 100) + 1 );
-  res.render('index', { title: 'You Posted this',
+  res.render('index', { title: title,
 			name: 'Still a Vagrant box',
 			number: number })
 });
