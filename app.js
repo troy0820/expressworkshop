@@ -5,6 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var _ = require('lodash');
 var bodyParser = require('body-parser');
+var compression = require('compression');
 
 
 //template
