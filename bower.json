@@ -1,0 +1,19 @@
+{
+  "name": "expressworkshop",
+  "version": "0.0.0",
+  "homepage": "https://github.com/troy0820/expressworkshop",
+  "authors": [
+    "Troy Connor <troy.connor@yahoo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.3.0"
+  }
+}
